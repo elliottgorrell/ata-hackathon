@@ -10,5 +10,5 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "{}/key.json".format(os.path.dirn
 nlp.understand_text("Hey this is jim from bendigo")
 
 # Run some audio through google speech-to-text
-file_name = os.path.join(os.path.dirname(__file__), 'resources', 'mono.flac')
+file_name = os.path.join(os.path.dirname(__file__), 'resources', 'bendigo.flac')
 speech.transcribe_audio_file(file_name)
